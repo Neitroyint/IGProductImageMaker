@@ -1,4 +1,4 @@
-Maker,Brand,Name,Side,Code,Buy Price,Profit,Sell Price,Created
-KYB,Excel-G,Amortiguador de gas,Delantero Derecho,334502," ?50,000.00 "," ?15,000.00 "," ?65,000.00 ",False
-KYB,Excel-G,Amortiguador de gas,Delantero Izquierdo,334503," ?50,000.00 "," ?15,000.00 "," ?65,000.00 ",False
-,,,,,,,,
+Maker,Brand,Name,Side,Code,Buy Price,Profit,Sell Price,Car 1,Car 2,Created
+KYB,Excel-G,Amortiguador de gas,Delantero Derecho,334502," ?50,000.00 "," ?15,000.00 "," ?65,000.00 ",Tucson Hyundai,Kia Sportage,False
+KYB,Excel-G,Amortiguador de gas,Delantero Izquierdo,334503," ?50,000.00 "," ?15,000.00 "," ?65,000.00 ",Tucson Hyundai,Kia Sportage,False
+,,,,,,,,,,

@@ -1,7 +1,8 @@
 PERCENT_PROFIT = 0.3
 PRODUCTS_PATH = '.\\data\\products.csv'
-RESULT_PATH = '.\\output99\\images'
+RESULT_PATH = '.\\output\\images'
 SVG_TEMPLATE = '.\\templates\\base.svg'
+IMAGE_PATH = '.\\source\\images\\'
 
 REPLACEMENT_DATA = {
     "--TITLE--": "",
