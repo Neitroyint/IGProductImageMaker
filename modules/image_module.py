@@ -8,7 +8,7 @@ from wand.color import Color
 from wand.drawing import Drawing
 from wand.display import display
 
-from data.constants import RESULT_PATH, SVG_TEMPLATE
+from data.constants import FONT_TYPES, RESULT_PATH, SVG_TEMPLATE
 
 def get_template_data() -> str:
     template_path = Path(SVG_TEMPLATE)
@@ -17,6 +17,13 @@ def get_template_data() -> str:
     return data
 
 def change_svg_data(template: str, replacements: list) -> bytes:
+    for t in FONT_TYPES:
+        template = template.replace(f'-{t}', '')
+        template = template.replace(f' - {t}', '')
+        template = template.replace(f'- {t}', '')
+        template = template.replace(f' -{t}', '')
+        template = template.replace(f'{t}', '')
+        template = template.replace(f' {t}', '')
     for r in replacements:
         if r.type == 'image':
             r.value = img_to_base64(r.value)

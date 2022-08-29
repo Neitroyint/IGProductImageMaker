@@ -7,6 +7,8 @@ def read_products_csv(file: Path) -> DataFrame:
 
 def format_data(df) -> DataFrame:
     df['Code'] = df['Code'].astype(str)
+    df['Car 1'] = df['Car 1'].astype(str)
+    df['Car 2'] = df['Car 2'].astype(str)
     return df
 
 def row_to_dict(df: DataFrame) -> list:

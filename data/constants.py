@@ -12,4 +12,5 @@ FONT_TYPES = [
     'Comprimida',
     'Cursiva',
     'Italic',
+    'MT',
 ]
