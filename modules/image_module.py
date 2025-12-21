@@ -3,12 +3,12 @@ from pathlib import Path
 from numpy import byte, void
 from wand.image import Image
 from wand.font import Font
-from classes.product import Product
+from model.product import Product
 from wand.color import Color
 from wand.drawing import Drawing
 from wand.display import display
 
-from data.constants import FONT_TYPES, RESULT_PATH, SVG_TEMPLATE
+from data.constants import FONT_TYPES, SVG_TEMPLATE
 
 def get_template_data() -> str:
     template_path = Path(SVG_TEMPLATE)
